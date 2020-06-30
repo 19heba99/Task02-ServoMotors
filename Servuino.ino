@@ -16,8 +16,6 @@ void setup() {
   m1.write(45);
   m2.write(100);
  
-   delay(1000);
-
   m1.detach();
   m2.detach();
 
