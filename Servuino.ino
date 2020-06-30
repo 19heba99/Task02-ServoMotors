@@ -1,4 +1,3 @@
-
 #include <Servo.h>
 
 Servo m1;  
@@ -10,11 +9,11 @@ void setup() {
   m2.attach(9);
 
   m1.write(90);
-  m2.write(180);
+  m2.write(170);
   
-   delay(1000);
+   delay(2000);
   
-  m1.write(180);
+  m1.write(45);
   m2.write(100);
  
    delay(1000);
